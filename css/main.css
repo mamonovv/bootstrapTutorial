@@ -5,6 +5,7 @@
 .navbar-brand {
   color: #f4f4f4;
   cursor: pointer;
+  margin-left: 1em;
 }
 .nav-link {
   margin-right: 1em !important;
@@ -18,6 +19,7 @@
 }
 .navbar-toggler {
   background: #fff !important;
+  margin-right: 1em !important;
 }
 
 .bg-dark {
@@ -25,4 +27,90 @@
 }
 .bg-primary {
   background-color: #343a40 !important;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url('../images/headerback.jpg');
+
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1 {
+  color: #f97300;
+}
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+.description button {
+  border: 1px solid #f97300;
+  background: #f97300;
+  color: #fff;
+}
+
+.about {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+}
+.about h1 {
+  color: #f97300;
+  margin: 2em;
+}
+.about img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.about span {
+  display: block;
+  color: #888;
+  position: absolute;
+  left: 115px;
+}
+.about .desc {
+  padding: 2em;
+  border-left: 4px solid #10828c;
+}
+.about .desc h3 {
+  color: #10828c;
+}
+.about .desc p {
+  line-height: 2;
+  color: #888;
+}
+
+/*Portfolio*/
+.portfolio {
+  margin: 4em 0;
+  position: relative;
+}
+.portfolio h1 {
+  color: #f97300;
+  margin: 2em;
+}
+.portfolio img {
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
 }

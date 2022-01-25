@@ -31,19 +31,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-4">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" data-value="about" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" data-value="team" href="#">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Post</a>
+            <a class="nav-link" data-value="blog" href="#">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" data-value="contact" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -77,7 +77,7 @@
             <span class="text-justify">S.Web Developer</span>
           </div>
           <div class="col-lg-8 col-md-8 col-sm-12 desc">
-            <h3>D.John</h3>
+            <h3>M.Vlad</h3>
             <p>
               ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
               tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -93,7 +93,7 @@
     </div>
 
     <!-- portfolio -->
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <h1 class="text-center">Portfolio</h1>
       <div class="container">
         <div class="row">
@@ -161,6 +161,170 @@
             />
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- Posts section -->
+    <div class="blog" id="blog">
+      <div class="container">
+        <h1 class="text-center">Blog</h1>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img
+                  align="center"
+                  src="images/posts/polit.jpg"
+                  class="img-fluid"
+                />
+              </div>
+
+              <div class="card-body">
+                <h4 class="card-title">Post Title</h4>
+                <p class="card-text">
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img
+                  align="center"
+                  src="images/posts/images.jpg"
+                  class="img-fluid"
+                />
+              </div>
+
+              <div class="card-body">
+                <h4 class="card-title">Post Title</h4>
+                <p class="card-text">
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 col-sm-12">
+            <div class="card">
+              <div class="card-img">
+                <img
+                  align="center"
+                  src="images/posts/imag2.jpg"
+                  class="img-fluid"
+                />
+              </div>
+
+              <div class="card-body">
+                <h4 class="card-title">Post Title</h4>
+                <p class="card-text">
+                  proident, sunt in culpa qui officia deserunt mollit anim id
+                  est laborum.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a href="" class="card-link">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team section -->
+    <div class="team" id="team">
+      <div class="container">
+        <h1 class="text-center">Our Team</h1>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-12 item">
+            <img
+              align="center"
+              src="images/photo.jpg"
+              class="img-fluid"
+              alt="team"
+            />
+            <div class="des">Sara</div>
+            <span class="text-muted">Manager</span>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 item">
+            <img
+              align="center"
+              src="images/photo.jpg"
+              class="img-fluid"
+              alt="team"
+            />
+            <div class="des">Chris</div>
+            <span class="text-muted">S.enginner</span>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 item">
+            <img
+              align="center"
+              src="images/photo.jpg"
+              class="img-fluid"
+              alt="team"
+            />
+            <div class="des">Layla</div>
+            <span class="text-muted">Front End Developer</span>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 item">
+            <img
+              align="center"
+              src="images/photo.jpg"
+              class="img-fluid"
+              alt="team"
+            />
+            <div class="des">J.Jirard</div>
+            <span class="text-muted">Team Manger</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact form -->
+    <div class="contact-form" id="contact">
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h1>Get in Touch</h1>
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 right">
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Your Name"
+                  name=""
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="YourEmail@email.com"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg"> </textarea>
+              </div>
+              <input
+                type="submit"
+                class="btn btn-secondary btn-block"
+                value="Send"
+                name=""
+              />
+            </div>
+          </div>
+        </form>
       </div>
     </div>
 
